@@ -1,13 +1,89 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  line-height: 1.4em;
+  vertical-align: baseline;
+  text-decoration: none;
+  outline: 0;
+  list-style-type: none;
+}
+
 body {
   padding: 0;
   margin: 0;
   font-family: "Roboto", sans-serif;
   color: #757575;
-  /* Background dodany aby elementy z color: #fff; były widoczne do sprawdzenia zadania */
-  background: #e5e5e5;
 }
 
+/* zadanie 3 początek */
+
+.container {
+  position: relative;
+  width: 1600px;
+  background: #ffffff;
+}
+
+.menu {
+  position: absolute;
+  width: 1600px;
+  left: 0px;
+  top: 0px;
+}
+
+.nav-list {
+  width: 254px;
+  left: 453px;
+}
+
+.nav-list > li {
+  position: absolute;
+}
+
+.agency {
+  width: 53px;
+  left: 0;
+}
+
+.cv {
+  left: 99px;
+  width: 58px;
+}
+
+.contact {
+  left: 203px;
+  width: 58px;
+}
+
+.contact-list {
+  left: 1078px;
+}
+
+.contact-list > li {
+  position: absolute;
+}
+
+.mail {
+  left: 0;
+  width: 135px;
+}
+
+.phone {
+  left: 185px;
+  width: 110px;
+}
+
+/* zadanie 3 koniec + dodane style do klas ponizej komentarza */
 .logo {
+  position: absolute;
+  width: 145px;
+  left: 215px;
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
@@ -20,6 +96,7 @@ body {
 
 .header-logo {
   color: #000;
+  top: 24px;
 }
 
 .footer-logo {
@@ -35,6 +112,8 @@ body {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
+  top: 32px;
+  position: absolute;
 }
 
 .nav-list > li > a {
