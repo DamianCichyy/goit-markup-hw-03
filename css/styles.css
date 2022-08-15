@@ -1,94 +1,26 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  line-height: 1.4em;
-  vertical-align: baseline;
-  text-decoration: none;
-  outline: 0;
-  list-style-type: none;
-}
-
 body {
-  padding: 0;
-  margin: 0;
   font-family: "Roboto", sans-serif;
   color: #757575;
 }
 
-/* zadanie 3 początek */
-
-.container {
-  position: relative;
-  width: 1600px;
-  background: #ffffff;
-}
-
 .menu {
-  position: absolute;
-  width: 1600px;
-  left: 0px;
-  top: 0px;
+  background-color: #fff;
 }
 
-.nav-list {
-  width: 254px;
-  left: 453px;
+.main-logo {
+  background-color: #2f303a;
 }
 
-.nav-list > li {
-  position: absolute;
+.footer {
+  background-color: #2f303a;
 }
 
-.agency {
-  width: 53px;
-  left: 0;
-}
-
-.cv {
-  left: 99px;
-  width: 58px;
-}
-
-.contact {
-  left: 203px;
-  width: 58px;
-}
-
-.contact-list {
-  left: 1078px;
-}
-
-.contact-list > li {
-  position: absolute;
-}
-
-.mail {
-  left: 0;
-  width: 135px;
-}
-
-.phone {
-  left: 185px;
-  width: 110px;
-}
-
-/* zadanie 3 koniec + dodane style do klas ponizej komentarza */
 .logo {
-  position: absolute;
-  width: 145px;
-  left: 215px;
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   /* identical to box height */
   letter-spacing: 0.03em;
   text-decoration: none;
@@ -96,7 +28,6 @@ body {
 
 .header-logo {
   color: #000;
-  top: 24px;
 }
 
 .footer-logo {
@@ -110,10 +41,8 @@ body {
 .menu-list {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
-  top: 32px;
-  position: absolute;
 }
 
 .nav-list > li > a {
@@ -138,7 +67,7 @@ body {
 .header-one {
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.36;
   /* or 136% */
   text-align: center;
   letter-spacing: 0.06em;
@@ -153,7 +82,7 @@ body {
   border: none;
   font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.88;
   /* identical to box height, or 188% */
   display: flex;
   align-items: center;
@@ -170,7 +99,7 @@ body {
 .header-three {
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
@@ -178,7 +107,7 @@ body {
 
 .content-paragraph {
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   /* or 171% */
   letter-spacing: 0.03em;
 }
@@ -186,7 +115,7 @@ body {
 .header-two {
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
@@ -195,7 +124,7 @@ body {
 .header-four {
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.19;
   /* identical to box height */
   text-align: center;
   letter-spacing: 0.03em;
@@ -204,7 +133,7 @@ body {
 
 .our-team-paragraph {
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.19;
   /* identical to box height */
   text-align: center;
   letter-spacing: 0.03em;
@@ -213,7 +142,7 @@ body {
 .address-list > li > p,
 .address-list > li > a {
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   /* or 171% */
   font-style: normal;
   letter-spacing: 0.03em;
@@ -236,7 +165,7 @@ body {
   border: none;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.63;
   /* identical to box height, or 162% */
   text-align: center;
   letter-spacing: 0.03em;
@@ -257,7 +186,7 @@ body {
 .portfolio-header-four {
   font-weight: 700;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   /* identical to box height, or 200% */
   letter-spacing: 0.06em;
   color: #212121;
@@ -265,7 +194,7 @@ body {
 
 .portfolio-paragraph {
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.88;
   /* identical to box height, or 188% */
   letter-spacing: 0.03em;
 }
