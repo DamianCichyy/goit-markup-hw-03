@@ -3,15 +3,15 @@ body {
   color: #757575;
 }
 
-.menu {
+.container {
   background-color: #fff;
 }
 
-.main-logo {
+.main-section {
   background-color: #2f303a;
 }
 
-.footer {
+.footer-background {
   background-color: #2f303a;
 }
 
