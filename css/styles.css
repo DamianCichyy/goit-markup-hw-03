@@ -68,10 +68,7 @@ body {
 
 .content-list {
   position: absolute;
-  width: 1170px;
-  height: 101px;
-  left: 215px;
-  top: 774px;
+  display: flex;
 }
 
 .logo {
