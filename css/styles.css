@@ -7,10 +7,8 @@ p,
 ul {
   margin: 0;
   padding: 0;
-  border: 0;
   text-decoration: none;
   list-style-type: none;
-  position: absolute;
 }
 
 * a {
@@ -18,14 +16,15 @@ ul {
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", "Raleway", sans-serif;
   color: #757575;
 }
 
 .container {
   background-color: #fff;
-  position: relative;
+  display: flex;
   width: 1600px;
+  flex-direction: column;
 }
 
 .section {
@@ -34,41 +33,41 @@ body {
 }
 
 .menu {
-  position: absolute;
-  width: 1600px;
-  left: 0px;
-  top: 0px;
-  height: 80px;
+  display: flex;
+  flex-direction: row;
 }
 
 .menu-list {
-  top: 32px;
   display: flex;
   justify-content: space-between;
 }
 
 .nav-list {
   width: 254px;
-  left: 453px;
+  margin: 32px 0 32px 93px;
 }
 
 .contact-list {
-  left: 1078px;
   width: 295px;
+  margin: 32px 0 32px 371px;
 }
 
 .main-logo {
   background-color: #2f303a;
-  position: absolute;
-  width: 1600px;
-  left: 0px;
-  top: 80px;
-  height: 600px;
+  display: flex;
+  flex-direction: column;
 }
 
 .content-list {
-  position: absolute;
   display: flex;
+  flex-direction: row;
+  width: 1170px;
+  margin-left: 215px;
+  justify-content: space-between;
+}
+
+.content-list > li {
+  width: 270px;
 }
 
 .logo {
@@ -79,17 +78,19 @@ body {
   line-height: 1.19;
   /* identical to box height */
   letter-spacing: 0.03em;
-  position: absolute;
 }
 
 .header-logo {
   color: #000;
-  left: 215px;
-  top: 24px;
+  margin: 24px 0 25px 215px;
 }
 
 .footer-logo {
   color: #fff;
+}
+
+.footer {
+  background-color: #2f303a;
 }
 
 .logo-color {
@@ -129,9 +130,8 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #fff;
+  margin: 200px 0 30px 482px;
   width: 696px;
-  left: 452px;
-  top: 200px;
 }
 
 .button {
@@ -149,11 +149,9 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   color: #fff;
-  position: absolute;
+  margin: 0 0 200px 700px;
   width: 200px;
-  height: 50px;
-  left: 700px;
-  top: 350px;
+  flex-basis: 50px;
 }
 
 .button:hover,
@@ -168,6 +166,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
+  margin-bottom: 10px;
 }
 
 .content-paragraph {
