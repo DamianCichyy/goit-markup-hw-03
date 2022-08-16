@@ -39,7 +39,8 @@ body {
   padding-bottom: 94px;
 }
 
-.menu {
+.menu,
+.button-list {
   display: flex;
   flex-direction: row;
 }
@@ -163,8 +164,7 @@ body {
   letter-spacing: 0.06em;
   color: #fff;
   margin: 0 0 200px 700px;
-  width: 200px;
-  flex-basis: 50px;
+  padding: 10px 41px 10px 43px;
 }
 
 .button:hover,
@@ -280,6 +280,10 @@ body {
 
 /* portfolio.html styles */
 
+.button-list {
+  justify-content: center;
+}
+
 .portfolio-button {
   background: #f5f4fa;
   border-radius: 4px;
@@ -291,6 +295,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  padding: 6px 22px 6px 22px;
 }
 
 .portfolio-button:hover,
