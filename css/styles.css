@@ -157,14 +157,11 @@ body {
   font-size: 16px;
   line-height: 1.88;
   /* identical to box height, or 188% */
-  display: flex;
-  justify-content: center;
-  align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
   color: #fff;
-  margin: 0 0 200px 700px;
   padding: 10px 41px 10px 43px;
+  margin-bottom: 200px;
 }
 
 .button:hover,
@@ -296,6 +293,11 @@ body {
   letter-spacing: 0.03em;
   color: #212121;
   padding: 6px 22px 6px 22px;
+  margin-right: 8px;
+}
+
+.portfolio-button:last-child {
+  margin-right: 0;
 }
 
 .portfolio-button:hover,
