@@ -20,10 +20,15 @@ body {
   color: #757575;
 }
 
-.container,
-.main {
-  display: flex;
-  flex-direction: column;
+.wrapper {
+  background-color: #fff;
+  width: 1600px;
+  margin: 0 auto;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
 }
 
 .menu,
@@ -33,24 +38,19 @@ body {
   flex-direction: row;
 }
 
-.menu,
-.nav-list,
-.contact-list {
-  justify-content: space-between;
-}
-
-.container {
-  background-color: #fff;
-  width: 1200px;
-  position: relative;
-}
-
-.contact-list {
-  width: 25%;
+.menu {
+  gap: 93px;
+  align-items: center;
+  padding: 25px 0 24px 0;
 }
 
 .nav-list {
-  width: 22%;
+  gap: 46px;
+}
+
+.contact-list {
+  gap: 50px;
+  padding: 0 0 0 277px;
 }
 
 .main-logo {
@@ -73,7 +73,6 @@ body {
 
 .header-logo {
   color: #000;
-  width: 12%;
 }
 
 .footer-logo {
