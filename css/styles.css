@@ -18,12 +18,15 @@ figure {
 body {
   font-family: "Roboto", "Raleway", sans-serif;
   color: #757575;
+  margin: 0;
+  padding: 0;
+  background-color: #e5e5e5;
 }
 
 .wrapper {
-  background-color: #fff;
   width: 1600px;
   margin: 0 auto;
+  background-color: #fff;
 }
 
 .container {
@@ -31,17 +34,24 @@ body {
   margin: 0 auto;
 }
 
-.menu,
-.nav-list,
-.contact-list {
+.header,
+.menu-list,
+.section1-list,
+.section2-list,
+.section3-list {
   display: flex;
   flex-direction: row;
 }
 
-.menu {
-  gap: 93px;
+.main-logo-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  padding: 24px 0 25px 0;
   align-items: center;
-  padding: 25px 0 24px 0;
+  gap: 94px;
 }
 
 .nav-list {
@@ -53,12 +63,26 @@ body {
   padding: 0 0 0 277px;
 }
 
-.main-logo {
+.main-logo-section {
   background-color: #2f303a;
+  width: 100%;
+  padding: 200px 0;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
 }
 
-.footer-background {
-  background-color: #2f303a;
+.menu-links {
+  color: #000;
+}
+
+.contact-links {
+  color: #757575;
+}
+
+.hover:hover,
+.hover:focus {
+  color: #2196f3;
 }
 
 .logo {
@@ -90,53 +114,31 @@ body {
   letter-spacing: 0.02em;
 }
 
-.nav-list > li > a {
-  color: #212121;
-}
-
-.contact-list > li > a {
-  color: #757575;
-}
-
-.nav-list > li > a:hover,
-.nav-list > li > a:focus,
-.contact-list > li > a:hover,
-.contact-list > li > a:focus,
-.address-list > li > a:hover,
-.address-list > li > a:focus {
-  color: #2196f3;
-}
-
 .header-one {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   /* or 136% */
   text-align: center;
-  letter-spacing: 0.06em;
   text-transform: uppercase;
+  letter-spacing: 0.06em;
   color: #fff;
+  margin: 0 452px;
 }
 
 .button {
-  background: #2196f3;
+  background-color: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  border: none;
+  border-style: none;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
   /* identical to box height, or 188% */
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
   color: #fff;
-}
-
-.button:hover,
-.button:focus {
   cursor: pointer;
+  padding: 10px 41px 10px 42px;
 }
 
 .header-three {
@@ -146,6 +148,27 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
+}
+
+.section {
+  padding: 94px 0;
+}
+
+.section1-list {
+  padding: 94px 0 0 0;
+}
+
+.section1-list,
+.section2-list,
+.section3-list {
+  gap: 30px;
+}
+.section3-list > li {
+  background-color: #fff;
+}
+
+.section3-background {
+  background-color: #f5f4fa;
 }
 
 .content-paragraph {
@@ -162,6 +185,11 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  padding: 0 0 50px 0;
+}
+
+.section3-background {
+  background-color: #f5f4fa;
 }
 
 .header-four {
@@ -172,6 +200,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  padding: 30px 0 0 0;
 }
 
 .our-team-paragraph {
@@ -180,10 +209,15 @@ body {
   /* identical to box height */
   text-align: center;
   letter-spacing: 0.03em;
+  padding: 10px 0 30px 0;
 }
 
-.address-list > li > p,
-.address-list > li > a {
+.section3-list img {
+  display: block;
+}
+
+.address-list-paragraph,
+.address-list-link {
   font-size: 14px;
   line-height: 1.71;
   /* or 171% */
@@ -192,11 +226,11 @@ body {
   text-decoration: none;
 }
 
-.address-list > li > p {
+.address-list-paragraph {
   color: #fff;
 }
 
-.address-list > li > a {
+.address-list-link {
   color: #757575;
 }
 
