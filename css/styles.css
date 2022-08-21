@@ -43,9 +43,15 @@ body {
   flex-direction: row;
 }
 
-.main-logo-section {
+.main-logo-section,
+.footer-container,
+.address-list {
   display: flex;
   flex-direction: column;
+}
+
+.address-list {
+  gap: 9px;
 }
 
 .header {
@@ -70,6 +76,7 @@ body {
   gap: 30px;
   justify-content: center;
   align-items: center;
+  border-top: 1px solid #ececec;
 }
 
 .menu-links {
@@ -83,6 +90,16 @@ body {
 .hover:hover,
 .hover:focus {
   color: #2196f3;
+}
+
+.footer {
+  background-color: #2f303a;
+  width: 100%;
+  padding: 60px 0;
+}
+
+.footer-container {
+  color: #fff;
 }
 
 .logo {
@@ -101,6 +118,7 @@ body {
 
 .footer-logo {
   color: #fff;
+  padding: 0 0 20px 0;
 }
 
 .logo-color {
@@ -224,14 +242,6 @@ body {
   font-style: normal;
   letter-spacing: 0.03em;
   text-decoration: none;
-}
-
-.address-list-paragraph {
-  color: #fff;
-}
-
-.address-list-link {
-  color: #757575;
 }
 
 /* portfolio.html styles */
