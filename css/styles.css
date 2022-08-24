@@ -222,11 +222,15 @@ img {
 
 .nav-list {
   gap: 46px;
+  justify-content: center;
+  align-items: center;
 }
 
 .contact-list {
   gap: 50px;
   padding-left: 278px;
+  justify-content: center;
+  align-items: center;
 }
 
 .header {
