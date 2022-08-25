@@ -66,11 +66,11 @@ body {
   padding: 94px 0;
 }
 
-.gap {
+.big-gap {
   gap: 30px;
 }
 
-.gap2 {
+.small-gap {
   gap: 9px;
 }
 
@@ -137,7 +137,6 @@ img {
   line-height: 2;
   letter-spacing: 0.06em;
   color: #212121;
-  padding: 20px 24px 4px 24px;
 }
 
 /**/
@@ -162,7 +161,6 @@ img {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
-  padding: 0 24px 20px 24px;
 }
 
 /**/
@@ -309,9 +307,12 @@ img {
   flex-basis: auto;
 }
 
-.f-border {
-  border: 1px solid #eeeeee;
-  border-top: none;
+.portfolio-pictures-card-border {
+  border-bottom: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  padding: 20px 24px 20px 24px;
+  gap: 4px;
 }
 
 /**/
